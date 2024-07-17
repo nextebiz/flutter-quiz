@@ -24,8 +24,11 @@ const questions = [
     answers: [
       "corolla",
       "honda",
-      "city",
+      "suzuki",
       "mercedese",
     ],
   ),
+  QuizQuestion(
+      questionText: "What is your wift name",
+      answers: [ "anita","uzma", "sultana", "farzana"])
 ];

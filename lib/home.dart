@@ -39,7 +39,7 @@ class Home extends StatelessWidget {
               Icons.arrow_forward,
             ),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.yellow,
+              backgroundColor: Colors.lightBlue,
               iconColor: Colors.red,
             ),
           ),

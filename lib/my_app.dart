@@ -18,24 +18,6 @@ class _MyAppState extends State<MyApp> {
 
   List<String>? result;
 
-  // openQuiz() {
-  //   setState(() {
-  //     activeScreen = "quiz";
-  //   });
-  // }
-
-  // openHome() {
-  //   setState(() {
-  //     activeScreen = "home";
-  //   });
-  // }
-
-  // openResult() {
-  //   setState(() {
-  //     activeScreen = "result";
-  //   });
-  // }
-
   openScreen({String? screenName}) {
     setState(() {
       activeScreen = screenName;

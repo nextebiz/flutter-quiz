@@ -65,14 +65,14 @@ class _QuizState extends State<Quiz> {
               const SizedBox(
                 height: 20,
               ),
-              Text(questions[0].questionText ?? "",
+              Text(questions[counter].questionText ?? "",
                   style: GoogleFonts.roboto(
                     fontSize: 30,
                   )),
               const SizedBox(
                 height: 20,
               ),
-              ...questions[counter].answers.map((answer) {
+              ...questions[counter].shuffleAnswers().map((answer) {
                 return Padding(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
